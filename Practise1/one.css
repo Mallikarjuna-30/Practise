@@ -1,0 +1,23 @@
+*{
+    margin : 0px;
+    font-style: Roboto Mono;
+    background-color: black;
+    color : white ;
+}
+
+.container {
+    margin-top : 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height:100%;
+    width : 100%;
+}
+
+.box{
+    text-align:center;
+    border : 2px solid rgb(131, 95, 240);
+    border-radius: 5px;
+    width : 25%;
+    height: 250px;
+    justify-items: center;
+}
