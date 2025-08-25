@@ -1,0 +1,55 @@
+*{
+    background-color: #A2D2FF;
+    /* font-style:"Roboto Mono"; */
+    margin:0px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.box{
+    height:400px;
+    width:250px;
+    background-color:#fff;
+    border-radius:10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #caf0f8;
+    gap: 15px;
+}
+.box img{
+    background-image: url(https://imgs.search.brave.com/qGw9MRY39FmYAOCuSYZkP-a-Ww4DyNwoXeskj_SXqMA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5jcmFpeW9uLmNv/bS8yMDI1LTA3LTIz/LzZfUDM2OHZOUlRx/d3g2NVlGdFE3cncu/d2VicA);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 0px;      
+    margin-bottom: 40px;
+}
+.box button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #023e8a;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.box button:hover{
+    background-color: #0077b6;
+}
+.box h3{
+    background-color: transparent;
+    font-style:"Roboto", "Poppins", sans-serif;
+}
