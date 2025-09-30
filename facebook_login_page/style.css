@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    height: 100%;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    gap: 100px;
+    padding: 20px;
+}
+
+.text{
+    width: 90%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+}
+
+.t1{
+    margin-left: 90px;
+    font-size: 70px;
+    color: rgb(19, 85, 216);
+    font-weight: 600;
+}
+
+.t2{
+    margin-left:90px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.info{
+    width:650px;
+    min-height: 550px;
+    margin-right: 200px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.in{
+    border: 0.2px solid black;
+    width: 75%;
+    height: 35px;
+    padding:20px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn{
+    width: 85%;
+    height: 60px;
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.info span{
+    color:blue;
+    font-size: 16px;
+}
+
+.info hr{
+    width: 90%;
+}
+
+.newAcc{
+    width: 85%;
+    height: 60px;
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:  #42b72a;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .info {
+    width: 100%;
+    max-width: 400px;
+    min-height: auto;
+    margin-right: 0;
+  }
+  
+  .text {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    min-height: auto;
+  }
+  
+  .t1 {
+    margin-left: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .t2 {
+    margin-left: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .in, .btn, .newAcc {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
