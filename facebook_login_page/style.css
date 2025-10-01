@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
 }
 
 .container{
@@ -93,8 +94,10 @@
     font-size: medium;
     border-radius: 10px;
     border: none;
-    color: white;
     background-color:  #42b72a;
+    text-decoration: none;
+    font-style: none;
+    color: white;
 }
 
 /* RESPONSIVE STYLES */
