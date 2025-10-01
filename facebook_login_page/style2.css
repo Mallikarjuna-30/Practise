@@ -3,17 +3,19 @@
     margin: 0px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
-    background-color: #f0f2f5;
+
+}
+body{
+  background-color: #f0f2f5;
 }
 .container{
     height: 100%;
-    background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
     min-height: 100vh;
-    gap: 100px;
+    gap: 20px;
 }
 .textContainer{
     font-size: 60px;
@@ -22,6 +24,151 @@
 }
 .box{
     border: 1px solid black;
-    height: 50vh;
-    width:30vw;
+    height: 80vh;
+    width:27vw;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:white;
+}
+
+.t1{
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+}
+.t2{
+    color:#606770;
+
+}
+
+.box hr{
+    width: 99%;
+    color: black;
+}
+
+.box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+}
+
+.nameinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.inbox{
+    width: 40%;
+    height: 25px;
+    padding: 5px;
+    border-radius:5px;
+    border:1px solid #606770;
+    font-size: medium;
+}
+
+.dobSpan{
+      color:#606770;
+      font-size:small;
+      margin-left:5px;
+}
+
+.dobInput{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.dobin{
+    width :28%;
+    height: 25px;
+    padding: 5px;
+    border-radius:5px;
+    border:1px solid #606770;
+    font-size: medium;
+    color:black;
+}
+
+.gender{
+  width:99%;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.genderInput{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:flex-start;
+  gap:10px;
+  margin-left:5px;
+}
+
+.genderin{
+  border:1px solid #606770;
+  width: 28%;
+  height:25px;
+  padding:5px;
+  border-radius:5px;
+  font-size: medium;
+}
+
+
+/* RESPONSIVE STYLES */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .info {
+    width: 100%;
+    max-width: 400px;
+    min-height: auto;
+    margin-right: 0;
+  }
+  
+  .text {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    min-height: auto;
+  }
+  
+  .t1 {
+    margin-left: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .t2 {
+    margin-left: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .in, .btn, .newAcc {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
 }
