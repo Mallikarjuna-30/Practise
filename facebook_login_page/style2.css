@@ -126,6 +126,47 @@ body{
   font-size: medium;
 }
 
+.box1{
+  border: 1px solid #606770;
+  border-radius:5px;
+  width:90%;
+  height: 25px;
+  padding:8px;
+  font-size: medium;
+}
+
+.lastText{
+  font-size: small;
+  color:#606770;
+  margin-left: 10px;
+}
+
+.lastText a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.btn{
+    width: 65%;
+    height: 50px;
+    padding:10px;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    background-color:  #42b72a;
+    text-decoration: none;
+    font-style: none;
+}
+
+.ardAcc{
+  color:lightblue;
+  margin-top: 5px;
+}
+
+.ardAcc a:hover{
+  color:blue;
+  text-decoration: underline;
+}
 
 /* RESPONSIVE STYLES */
 @media (max-width: 900px) {
